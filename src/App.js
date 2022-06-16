@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
 import AlbumFeature from "./features/Album";
+// import "./App.css";
 
 function App() {
   return (

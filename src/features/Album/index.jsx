@@ -7,27 +7,27 @@ function AlbumFeature(props) {
   const albumList = [
     {
       id: 1,
-      name: "duy",
+      name: "Duy",
       thumbnailUrl:
-        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…z1vSoDjm1ULkZydxj3mTIvICb27ZOVbOTn1HfrNzJkNmB/9k=",
+        "https://image.shutterstock.com/image-vector/letter-d-dog-logo-design-260nw-2157669653.jpg",
     },
     {
       id: 2,
-      name: "tri",
+      name: "khoi",
       thumbnailUrl:
-        "https://cafefcdn.com/thumb_w/650/20333711448726323…3/3/photo1646280815645-1646280816151764748403.jpg",
+        "https://image.shutterstock.com/image-vector/letter-d-dog-logo-design-260nw-2157669653.jpg",
     },
     {
       id: 3,
-      name: "hiho",
+      name: "Tho",
       thumbnailUrl:
-        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…RAUcV4ouI/wAsRRShDaXgkaxRRIZIm0hG5iijYiOKKKSM/9k=",
+        "https://image.shutterstock.com/image-vector/letter-d-dog-logo-design-260nw-2157669653.jpg",
     },
   ];
   return (
     <div>
-      <h2>It seem like you will love it</h2>
-      <AlbumList albumList = />
+      <h2>May be you will like it</h2>
+      <AlbumList albumList={albumList} />
     </div>
   );
 }

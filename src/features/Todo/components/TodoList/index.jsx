@@ -13,6 +13,7 @@ function TodoList({ todoList }) {
   return (
     <ul>
       {todoList.map((todo) => (
+        // need to have a key
         <li key={todo.id}>{todo.title}</li>
       ))}
     </ul>

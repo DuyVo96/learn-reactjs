@@ -27,7 +27,9 @@ function TodoList({ todoList, onTodoClick }) {
         // need to have a key
         <li
           key={todo.id}
+          // todo.item will have another class is = completed whenever status is completed
           className={classnames({
+            // li always has class: todo-item
             "todo-item": true,
             completed: todo.status === "completed",
           })}
